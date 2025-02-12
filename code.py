@@ -94,3 +94,8 @@ def calculate_tax(salary):
     if tax_amount >= 75000:
         return 75000
     return tax_amount
+
+def main():
+    print(wheres_the_money())
+
+main()
