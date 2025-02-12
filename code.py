@@ -19,7 +19,6 @@ def wheres_the_money(salary, mortgage, bills, food, travel):
         largest_value = calculate_tax(salary)
     if calc_extra > largest_value:
         largest_value = calc_extra
-        return largest_value
 
     
 
